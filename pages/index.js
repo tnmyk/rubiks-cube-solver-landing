@@ -1,6 +1,7 @@
 import Nav from "../components/Nav";
 import { AiFillGithub } from "react-icons/ai";
 import { BsArrowRight, BsArrowDownShort } from "react-icons/bs";
+import Tech from "../components/Home/Tech";
 export default function Home() {
   return (
     <div className="flex flex-col items-center px-8">
@@ -35,6 +36,7 @@ export default function Home() {
           );
         })}
       </div>
+      <Tech />
       <div className="">
         <h1 className="text-3xl font-medium mt-24 text-gray-300">Team</h1>
       </div>
