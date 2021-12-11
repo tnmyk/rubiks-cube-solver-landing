@@ -10,11 +10,11 @@ export default function Home() {
     <div className="flex flex-col items-center px-8">
       <h1 className="font-bold text-8xl mt-32">Rubik's Cube Solver</h1>
       <h3 className="text-2xl mt-5 text-gray-400">Made by group 16 members</h3>
-      <div className="flex flex-wrap gap-x-3">
-        <button className="p-3 w-56 font-medium text-lg rounded bg-green-500 mt-10 flex justify-center items-center gap-x-2">
+      <div className="flex flex-wrap justify-center mt-10 gap-x-3 gap-y-2">
+        <button className="p-3 w-56 font-medium text-lg rounded bg-green-500 flex justify-center items-center gap-x-2">
           View product <BsArrowRight />
         </button>
-        <button className="p-2 w-56 font-medium text-lg rounded border mt-10 flex justify-center items-center gap-x-2">
+        <button className="p-3 w-56 font-medium text-lg rounded border flex justify-center items-center gap-x-2">
           View Source code <AiFillGithub />
         </button>
       </div>
