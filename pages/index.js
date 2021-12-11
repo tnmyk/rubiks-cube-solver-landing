@@ -10,7 +10,7 @@ import { BiCubeAlt } from "react-icons/bi";
 export default function Home() {
   return (
     <div className="flex flex-col items-center px-8">
-      <h1 className="font-bold md:text-7xl mt-32 text-5xl">
+      <h1 className="font-bold md:text-7xl mt-20 md:mt-32 text-5xl">
         Rubik's Cube Solver{" "}
         <BiCubeAlt style={{ display: "inline", fontSize: "5rem" }} />
       </h1>
