@@ -2,32 +2,27 @@ const teamData = [
   {
     name: "Tanmay Kachroo",
     rollNumber: "20BCE10142",
-    contribution:
-      "Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri  ",
+    contribution: "Worked on webpage.",
   },
   {
     name: "Tanmay Kachroo",
     rollNumber: "20BCE10142",
-    contribution:
-      "Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri  ",
+    contribution: "Worked on webpage.",
   },
   {
     name: "Tanmay Kachroo",
     rollNumber: "20BCE10142",
-    contribution:
-      "Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri  ",
+    contribution: "Worked on webpage.",
   },
   {
     name: "Tanmay Kachroo",
     rollNumber: "20BCE10142",
-    contribution:
-      "Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri  ",
+    contribution: "Worked on webpage.",
   },
   {
     name: "Tanmay Kachroo",
     rollNumber: "20BCE10142",
-    contribution:
-      "Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri Contri  ",
+    contribution: "Worked on webpage.",
   },
 ];
 
