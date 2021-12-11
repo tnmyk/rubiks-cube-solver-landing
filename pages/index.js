@@ -3,10 +3,10 @@ import { AiFillGithub } from "react-icons/ai";
 import { BsArrowRight, BsArrowDownShort } from "react-icons/bs";
 import Tech from "../components/Home/Tech";
 import Team from "../components/Home/Team";
+import Footer from "../components/Footer/Footer";
 export default function Home() {
   return (
     <div className="flex flex-col items-center px-8">
-      <Nav />
       <h1 className="font-bold text-8xl mt-32">Rubik's Cube Solver</h1>
       <h3 className="text-2xl mt-5 text-gray-400">Made by group 16 members</h3>
       <div className="flex gap-x-3">
