@@ -1,0 +1,22 @@
+.menu {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  background-color: black;
+  width: 100%;
+  z-index: 1;
+  height: 100vh;
+  transition: 1s;
+
+  /* Links */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1rem;
+  font-size:1.5rem;
+  font-weight: 500;
+}
+.open {
+  left: 0;
+}

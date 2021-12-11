@@ -5,7 +5,7 @@ const Features = () => {
       <div className="">
         <h1 className="text-3xl font-medium mt-24 text-gray-300">Features</h1>
       </div>
-      <div className="flex gap-4 flex-wrap px-10 w-full justify-center mt-5">
+      <div className="flex gap-5 flex-wrap px-10 w-full justify-center mt-5">
         {featuresData.map(({ title, desc }, index) => {
           return (
             <div
