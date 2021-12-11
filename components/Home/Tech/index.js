@@ -13,8 +13,8 @@ const Tech = () => {
         {techData.map(({ logo, title, desc }) => {
           return (
             <div
-              style={{ minHeight: "15rem" }}
-              className="flex flex-col gap-y-4 items-center p-8 border rounded border-gray-500 w-1/4"
+              style={{ minHeight: "15rem", minWidth: "17rem" }}
+              className="flex flex-col gap-y-4 items-center p-8 border rounded border-gray-500 w-1/3"
             >
               <div className="font-medium text-5xl">{logo}</div>
               <h3 className="font-medium text-lg">{title}</h3>

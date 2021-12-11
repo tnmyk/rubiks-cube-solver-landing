@@ -10,8 +10,8 @@ const Team = () => {
         {teamData.map(({ name, rollNumber, contribution }) => {
           return (
             <div
-              style={{ minHeight: "15rem" }}
-              className="flex flex-col gap-y-1 items-center p-7 border rounded border-gray-500 w-1/4"
+              style={{ minHeight: "15rem", minWidth: "17rem" }}
+              className="flex flex-col gap-y-1 items-center p-7 border rounded border-gray-500 w-1/3"
             >
               <div className="font-medium text-xl">{name}</div>
               <div className="text-gray-400 font-medium">{rollNumber}</div>
