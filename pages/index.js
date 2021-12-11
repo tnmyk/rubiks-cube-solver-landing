@@ -35,6 +35,26 @@ export default function Home() {
           );
         })}
       </div>
+      <div className="">
+        <h1 className="text-3xl font-medium mt-24 text-gray-300">Team</h1>
+      </div>
+      <div className="flex gap-5 flex-wrap px-10 w-full justify-center mt-5">
+        {[1, 2, 1, 1, 1].map((a) => {
+          return (
+            <div
+              style={{ minHeight: "15rem" }}
+              className="flex flex-col gap-y-5 items-center p-5 border rounded border-gray-500 w-1/4"
+            >
+              <div className="font-medium text-xl">Solve</div>
+              <div className="w-full text-center font-medium text-gray-400">
+                Something about solving Something about solving Something about
+                solving Something about solving Something about solving
+                Something about solving
+              </div>
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 }
