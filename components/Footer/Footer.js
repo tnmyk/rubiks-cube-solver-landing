@@ -13,6 +13,7 @@ const Footer = () => {
           href="https://github.com/tnmyk/rubiks-cube-solver-landing"
           target="_blank"
           className="flex items-center gap-x-1"
+          rel="noreferrer"
         >
           Webpage Github <BsGithub />
         </a>
