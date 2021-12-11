@@ -10,9 +10,10 @@ const Tech = () => {
         </h1>
       </div>
       <div className="flex gap-5 flex-wrap px-10 w-full justify-center mt-5">
-        {techData.map(({ logo, title, desc }) => {
+        {techData.map(({ logo, title, desc }, index) => {
           return (
             <div
+              key={index}
               style={{ minHeight: "15rem", minWidth: "17rem" }}
               className="flex flex-col gap-y-4 items-center p-8 border rounded border-gray-500 w-1/3"
             >

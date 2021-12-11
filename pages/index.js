@@ -21,9 +21,10 @@ export default function Home() {
         <h1 className="text-3xl font-medium mt-24 text-gray-300">Features</h1>
       </div>
       <div className="flex gap-4 flex-wrap px-10 w-full justify-center mt-5">
-        {[1, 2, 1].map((a) => {
+        {[1, 2, 3].map((a) => {
           return (
             <div
+              key={a}
               style={{ minHeight: "15rem" }}
               className="flex flex-col gap-y-5 items-center p-5 border rounded border-gray-500 w-1/3"
             >
