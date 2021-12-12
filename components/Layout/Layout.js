@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
     <main>
       <Menu isMenuOpen={isMenuOpen} />
       <Nav setMenuOpen={setMenuOpen} isMenuOpen={isMenuOpen} />
-      {children}
+      <div style={{ minHeight: "70vh" }}>{children}</div>
       <Footer />
     </main>
   );
