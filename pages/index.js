@@ -26,14 +26,20 @@ export default function Home() {
         >
           members
         </span>
+        .
       </h3>
       <div className="flex flex-wrap justify-center mt-10 gap-x-3 gap-y-2">
         <button className="p-3 w-56 font-medium text-lg rounded bg-green-500 flex justify-center items-center gap-x-2">
           View product <BsArrowRight />
         </button>
-        <button className="p-3 w-56 font-medium text-lg rounded border flex justify-center items-center gap-x-2">
+        <a
+          className="p-3 w-56 font-medium text-lg rounded border flex justify-center items-center gap-x-2"
+          href="https://github.com/hacked-netizen/Rubiks-Cube-solver"
+          target="_blank"
+          rel="noreferrer"
+        >
           View Source code <AiFillGithub />
-        </button>
+        </a>
       </div>
       <Features />
       <HowToUse />
