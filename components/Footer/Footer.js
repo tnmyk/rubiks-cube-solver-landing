@@ -17,8 +17,6 @@ const Footer = () => {
         >
           Webpage Github <BsGithub />
         </a>
-        <Link href="/">About</Link>
-        <Link href="/">Members</Link>
       </div>
     </footer>
   );
