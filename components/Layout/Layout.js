@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
   return (
     <main>
       <Menu isMenuOpen={isMenuOpen} />
-      <Nav setMenuOpen={setMenuOpen} />
+      <Nav setMenuOpen={setMenuOpen} isMenuOpen={isMenuOpen} />
       {children}
       <Footer />
     </main>
