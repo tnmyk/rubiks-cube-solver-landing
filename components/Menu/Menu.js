@@ -2,13 +2,18 @@ import Link from "next/link";
 import { useEffect } from "react";
 import { BiDownload } from "react-icons/bi";
 import styles from "./Menu.module.css";
-const Menu = ({ isMenuOpen }) => {
+const Menu = ({ isMenuOpen, setMenuOpen }) => {
   useEffect(() => {
     if (isMenuOpen) document.body.style.overflow = "hidden";
     else document.body.style.overflow = "unset";
   }, [isMenuOpen]);
   return (
-    <div className={`${styles.menu} ${isMenuOpen && styles.open}`}>
+    <div
+      className={`${styles.menu} ${isMenuOpen && styles.open}`}
+      onClick={() => {
+        setMenuOpen(false);
+      }}
+    >
       {/* <div className="gap-x-10 text-gray-400 font-medium text-lg hidden md:flex"> */}
       <Link href="/">About</Link>
       <Link href="/download">

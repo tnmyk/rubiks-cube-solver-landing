@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
   const [isMenuOpen, setMenuOpen] = useState(false);
   return (
     <main>
-      <Menu isMenuOpen={isMenuOpen} />
+      <Menu isMenuOpen={isMenuOpen} setMenuOpen={setMenuOpen} />
       <Nav setMenuOpen={setMenuOpen} isMenuOpen={isMenuOpen} />
       <div style={{ minHeight: "70vh" }}>{children}</div>
       <Footer />
