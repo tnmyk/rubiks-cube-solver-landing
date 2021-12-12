@@ -13,11 +13,11 @@ export default function Home() {
   const teamRef = useRef(null);
   return (
     <div className="flex flex-col items-center px-8">
-      <h1 className="font-bold md:text-7xl mt-20 md:mt-32 text-5xl">
+      <h1 className="font-bold md:text-7xl mt-20 md:mt-32 text-5xl text-center">
         Rubik's Cube Solver{" "}
-        <BiCubeAlt style={{ display: "inline", fontSize: "5rem" }} />
+        <BiCubeAlt className="block sm:inline mx-auto" style={{ fontSize: "5rem" }} />
       </h1>
-      <h3 className="text-2xl mt-5 text-gray-400">
+      <h3 className="text-2xl mt-5 text-gray-400 text-center">
         Made by group x{" "}
         <span
           className="border-b-2 border-b-gray-400 cursor-pointer"
