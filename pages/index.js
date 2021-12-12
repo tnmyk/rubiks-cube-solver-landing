@@ -8,6 +8,7 @@ import Features from "../components/Home/Features";
 import HowToUse from "../components/Home/HowToUse";
 import { BiCubeAlt } from "react-icons/bi";
 import { useRef } from "react";
+import Link from "next/link";
 export default function Home() {
   const teamRef = useRef(null);
   return (
@@ -29,9 +30,11 @@ export default function Home() {
         .
       </h3>
       <div className="flex flex-wrap justify-center mt-10 gap-x-3 gap-y-2">
-        <button className="p-3 w-56 font-medium text-lg rounded bg-green-500 flex justify-center items-center gap-x-2">
-          View product <BsArrowRight />
-        </button>
+        <Link href="/download">
+          <a className="p-3 w-56 font-medium text-lg rounded bg-green-500 flex justify-center items-center gap-x-2">
+            View product <BsArrowRight />
+          </a>
+        </Link>
         <a
           className="p-3 w-56 font-medium text-lg rounded border flex justify-center items-center gap-x-2"
           href="https://github.com/hacked-netizen/Rubiks-Cube-solver"
