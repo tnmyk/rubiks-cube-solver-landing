@@ -5,7 +5,7 @@ const Nav = ({ setMenuOpen, isMenuOpen }) => {
   return (
     <nav className="w-full p-6 px-6 flex justify-between ">
       <Link href="/">
-        <a className="font-bold text-xl z-10">Rubik's Cube Solver</a>
+        <a className="font-medium text-xl text-gray-200 z-10">Rubik's Cube Solver</a>
       </Link>
       <div className="gap-x-10 text-gray-400 font-medium text-lg hidden md:flex">
         <Link href="/">About</Link>
