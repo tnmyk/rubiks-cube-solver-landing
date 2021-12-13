@@ -12,9 +12,9 @@ const Team = () => {
             <div
               key={index}
               style={{ minHeight: "15rem", minWidth: "17rem" }}
-              className="flex flex-col gap-y-1 items-center p-7 border rounded border-gray-500 w-1/4"
+              className="flex flex-col items-center p-7 border rounded border-gray-500 w-1/4"
             >
-              <div className="rounded-full w-20 bg-gray-400 overflow-hidden mb-2">
+              <div className="rounded-full w-20 bg-gray-400 overflow-hidden mb-3">
                 <img
                   src={
                     photoURL ||
