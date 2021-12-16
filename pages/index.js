@@ -15,7 +15,10 @@ export default function Home() {
     <div className="flex flex-col items-center px-8">
       <h1 className="font-bold md:text-7xl mt-20 md:mt-32 text-5xl text-center">
         Rubik's Cube Solver{" "}
-        <BiCubeAlt className="block sm:inline mx-auto" style={{ fontSize: "5rem" }} />
+        <BiCubeAlt
+          className="block sm:inline mx-auto"
+          style={{ fontSize: "5rem" }}
+        />
       </h1>
       <h3 className="text-2xl mt-5 text-gray-400 text-center">
         Made by group x{" "}
@@ -45,6 +48,12 @@ export default function Home() {
         </a>
       </div>
       <Features />
+      <div className="">
+        <h1 className="text-3xl font-medium mt-24 text-gray-300 mb-5">
+          Rubiks cube steps
+        </h1>
+      </div>
+      <img src={`./images/steps.png`}  className="w-full sm:w-11/12 md:w-9/12 lg:w-7/12" />
       <HowToUse />
       <Tech />
       <span ref={teamRef} style={{ scrollMarginTop: "-80px" }} />

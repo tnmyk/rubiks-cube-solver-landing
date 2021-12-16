@@ -7,7 +7,6 @@ const ProfileLogo = ({ website }) => {
     case "linkedIn":
       return <BsLinkedin />;
     case "github":
-      console.log('asdeasd')
       return <BsGithub />;
     default:
       return null;
