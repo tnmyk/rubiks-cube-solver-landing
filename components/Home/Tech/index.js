@@ -5,7 +5,7 @@ const Tech = () => {
   return (
     <>
       <div className="">
-        <h1 className="text-3xl font-medium mt-24 text-gray-300">
+        <h1 className="text-3xl font-medium mt-20 text-gray-300">
           Technology used
         </h1>
       </div>

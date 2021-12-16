@@ -48,13 +48,16 @@ export default function Home() {
         </a>
       </div>
       <Features />
+      <HowToUse />
       <div className="">
         <h1 className="text-3xl font-medium mt-24 text-gray-300 mb-5">
           Rubiks cube steps
         </h1>
       </div>
-      <img src={`./images/steps.png`}  className="w-full sm:w-11/12 md:w-9/12 lg:w-7/12" />
-      <HowToUse />
+      <img
+        src={`./images/steps.png`}
+        className="w-full sm:w-11/12 md:w-9/12 lg:w-7/12"
+      />
       <Tech />
       <span ref={teamRef} style={{ scrollMarginTop: "-80px" }} />
       <Team />
