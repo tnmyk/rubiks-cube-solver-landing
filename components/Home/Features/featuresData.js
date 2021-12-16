@@ -12,7 +12,7 @@ const featuresData = [
     icon: <AiFillCamera />,
     background: "bg-red-500",
     title: "Camera",
-    desc: `Something about solving Something about solving Something about solving Something about solving Something about solving Something about solving`,
+    desc: `Just show your unsolved cube in the webcam and our program will recognize its faces and provide the solution, instead of manually entering cube's sides.`,
   },
 
   {

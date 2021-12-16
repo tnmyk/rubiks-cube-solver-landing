@@ -1,4 +1,3 @@
-import { SiOpencv } from "react-icons/si";
 import techData from "./techData";
 
 const Tech = () => {
