@@ -6,7 +6,7 @@ const featuresData = [
     icon: <HiCursorClick />,
     background: "bg-green-500",
     title: "Easy UI",
-    desc: `Something about solving Something about solving Something about solving Something about solving Something about solving Something about solving`,
+    desc: `The program has a simplistic and minimalist UI design, making it easy for the users to navigate through it and get their cubes solved.`,
   },
   {
     icon: <AiFillCamera />,
@@ -19,14 +19,14 @@ const featuresData = [
     title: "Fast",
     icon: <BsSpeedometer />,
     background: "bg-cyan-600",
-    desc: `Something about solving Something about solving Something about solving Something about solving Something about solving Something about solving`,
+    desc: `The program is entirely written in Python, enabling it to be faster than others.`,
   },
   {
     title: "Open-sourced",
     icon: <BsGithub />,
     background: "bg-white",
     color: "text-black",
-    desc: `Something about solving Something about solving Something about solving Something about solving Something about solving Something about solving`,
+    desc: `The project is entirely open-sourced, with the entire source code available on Github. From around the world, developers, designers, creators, enthusiasts, and more, have free and open access to all the repos, assets, and information to make their contributions.`,
   },
 ];
 export default featuresData;
