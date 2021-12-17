@@ -18,6 +18,7 @@ const teamData = [
     name: "Utkarsh Swarup",
     rollNumber: "20BCE10101​",
     contribution: "Worked on webpage.",
+    github: "https://github.com/hacked-netizen",
   },
   {
     name: "Tanmay Kachroo",
