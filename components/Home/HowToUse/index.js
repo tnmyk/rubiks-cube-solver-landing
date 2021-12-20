@@ -7,7 +7,7 @@ const HowToUse = () => {
         </h1>
       </div>
       <div
-      className="md:w-1/2 w-11/12 pb-72"
+        className="md:w-1/2 w-11/12 pb-72"
         style={{
           height: "0",
           position: "relative",
@@ -21,11 +21,11 @@ const HowToUse = () => {
             width: "100%",
             height: "100%",
           }}
-          src="https://www.youtube.com/embed/5DCo_bZ0PEo"
+          src="https://www.youtube.com/embed/ZmJ4R6_wWcU"
           title="YouTube video player"
-          frameBorder="0"
+          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
+          allowfullscreen
         ></iframe>
       </div>
     </>
