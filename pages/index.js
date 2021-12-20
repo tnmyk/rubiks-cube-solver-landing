@@ -21,7 +21,7 @@ export default function Home() {
         />
       </h1>
       <h3 className="text-2xl mt-5 text-gray-400 text-center">
-        Made by group x{" "}
+        Made by group 160{" "}
         <span
           className="border-b-2 border-b-gray-400 cursor-pointer"
           onClick={() => {

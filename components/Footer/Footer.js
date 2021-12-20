@@ -4,7 +4,7 @@ import { BsGithub } from "react-icons/bs";
 const Footer = () => {
   return (
     <footer className="mx-auto w-10/12 border-t border-gray-600 mt-16 flex flex-wrap-reverse justify-between p-7 text-gray-400 font-medium text-lg">
-      <div>Group x</div>
+      <div>Group 160</div>
       <div className="flex gap-x-7 flex-wrap ">
         <a
           href="https://github.com/hacked-netizen/Rubiks-Cube-solver"
