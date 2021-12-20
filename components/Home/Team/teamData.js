@@ -7,6 +7,7 @@ const teamData = [
   {
     name: "Gaurav Tilwani",
     rollNumber: "20BCE10429",
+    github: "https://github.com/tilwanigaurav8",
   },
   {
     name: "Nihar Goyal",
