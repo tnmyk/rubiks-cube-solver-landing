@@ -15,7 +15,7 @@ const Menu = ({ isMenuOpen, setMenuOpen }) => {
       }}
     >
       {/* <div className="gap-x-10 text-gray-400 font-medium text-lg hidden md:flex"> */}
-      <Link href="/">About</Link>
+      <Link href="/">Home</Link>
       <Link href="/download">
         <a className="flex items-center gap-x-2">
           Download
