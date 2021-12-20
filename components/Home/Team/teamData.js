@@ -3,6 +3,7 @@ const teamData = [
     name: "Pratham Sachdev",
     rollNumber: "20BCE10444",
     contribution: "Worked on webpage.",
+    github: "https://github.com/prath26",
   },
   {
     name: "Gaurav Tilwani",
