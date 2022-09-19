@@ -19,7 +19,7 @@ const teamData = [
     github: "https://github.com/hacked-netizen",
   },
   {
-    name: "Tanmay Kachroo",
+    name: "Tanmay",
     rollNumber: "20BCE10142",
     github: "https://github.com/tnmyk",
   },
